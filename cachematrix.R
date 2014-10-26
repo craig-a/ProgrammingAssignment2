@@ -48,7 +48,7 @@ cacheSolve <- function(x, ...) {
 
     ## Return the inverse if it is already set
     if( !is.null(m) ) {
-            message("getting cached data")
+            message("I am getting cached data please be patient...")
             return(m)
     }
 
